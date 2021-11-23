@@ -3,10 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-*:after {
+*::after {
   box-sizing: border-box;
 }
-*:before {
+*::before {
   box-sizing: border-box;
 }
 #html {
@@ -18,12 +18,12 @@
   transform: translateX(-50%);
   top: 20px;
 }
-#div1:before {
+#div1::before {
   content: "";
   display: block;
   position: absolute;
 }
-#div1:after {
+#div1::after {
   content: "";
   display: block;
   position: absolute;
